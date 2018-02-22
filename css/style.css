@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+	margin: 0;
+	min-height: 100%;
+	background-color: #ffffff;
+	background-image: url("../assets/light-wool.png")!important;
+}
+
+.contentbox {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentbox>span {
+  font-size: 700%;
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.contentbox {
+  font-family: raleway;
+  font-size: 30px;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  font-family: raleway;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.item, h1, h3 {
+/*   border: 2px solid red; */
+  text-align: left;
+  margin: 25px 0px 25px 80px;
+  align-self: fill;
+  opacity: 0.8;
+}
+h1 {
+   font-size: 40px; 
+}
+h3 {
+  font-size: 20px;
+}
+.titlearea {
+  padding-bottom: 50px;
+  margin-left: -10px;
+  
+}
+
+.item>a {
+  color: black;
+/*   border: 2px solid black; */
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+/*   min-width: 500px; */
+}
+
+a:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+.item:hover {
+  border-right: 3px solid black;
+  transition: border-right 0.2s 0.2s ease-in;
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar {
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+  }
+  .content {
+    height: 90vh;
+    width: 100vw;
+  }
+  .container {
+   flex-direction: column-reverse;
+  }
+  .item {
+    margin: 10px 20px;
+    
+  }
+  a {
+    font-size: 20px;
+  }
+  .section {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: no-wrap; 
+   align-items: center;
+  }
+  .item:hover {
+    border-right: none;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.2s 0.2s ease-out; 
+  }
+  .section:hover {
+    
+   
+  }
+}
