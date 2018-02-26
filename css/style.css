@@ -53,6 +53,7 @@ p {
 .container {
   display: flex;
   flex-direction: row;
+  min-height: 100vh;
 }
 .item, .titlearea h1, .titlearea h3 {
 /*   border: 2px solid red; */
@@ -105,12 +106,12 @@ a:hover {
   transition: border-right 0.2s 0.2s ease-in;
 }
 
-.icon {
+.icon>div {
   min-height: 80px;
   min-width: 150px;
   /*color: bla;*/
   padding: 10px;
-  margin: 5px;
+  margin: 20px;
   border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   display: flex;
@@ -223,6 +224,7 @@ div.tile * {
     justify-content: center;
     height: 15vh;
     width: 100vw;
+    position: fixed;
   }
   .section>div {
     display: flex;
