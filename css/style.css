@@ -17,6 +17,7 @@ a {
 p {
   font-size: 18px;
 }
+
 .contentbox {
   font-family: raleway;
   font-size: 30px;
@@ -28,7 +29,7 @@ p {
   margin-left: 20%;
 }
 .contentbox>span {
-  font-size: 700%;
+  font-size: 300px;
   padding: 20px 0px;
   color: rgba(0, 0, 0, 0.2);
 }
@@ -67,6 +68,9 @@ p {
 .titlearea h3 {
   font-size: 20px;
 }
+h3 span {
+  font-size: 13px;
+}
 .titlearea {
   padding-bottom: 20px;
   margin-left: -10px;
@@ -96,14 +100,21 @@ p {
   text-decoration: none;
   color: white;
 }
+.citystyle:hover {
+  background: #910002;
+}
+.citystyle {
+  color: #910002;
+  border-color: #910002
+}
 
-a:hover {
+/*a:hover {
   opacity: 1;
   transition: opacity 0.5s ease-out;
-}
+}*/
 .item:hover {
-  border-right: 3px solid black;
-  transition: border-right 0.2s 0.2s ease-in;
+  background-color: #910002;
+  transition: background-color 0.5s 0.1s ease-in;
 }
 
 .icon>div {
