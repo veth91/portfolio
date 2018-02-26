@@ -156,6 +156,7 @@ div.tile img {
   display: block;
   max-width: 350px;
   max-height: 250px;
+  min-height: 250px
   width: auto;
   height: auto;
   z-index: 10;
@@ -191,10 +192,10 @@ div>ul {
 
 }
 .tech:hover img{
-  opacity: 0.3;
+  opacity: 0.2;
 }
 div.tile:hover img {
-  opacity: 0.3;
+  opacity: 0.2;
   filter: grayscale(100%);
 }
 div.tile:hover div {
