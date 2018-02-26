@@ -225,6 +225,8 @@ div.tile * {
     height: 15vh;
     width: 100vw;
     position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 100;
   }
   .section>div {
     display: flex;
@@ -241,19 +243,29 @@ div.tile * {
     margin: 0;
   }
   .contentbox {
+    max-height: 85vh;
     height: 85vh;
     width: 100vw;
     margin-left: 0px;
+    margin-bottom: 15%
   }
   .container {
    flex-direction: column-reverse;
   }
-
+  .boxfortiles {
+    max-height: 85vh;
+  }
   .item {
     margin: 10px 20px;
   }
+  .websitetile:last-of-type {
+    margin-bottom: 20vh;
+  }
   a {
     font-size: 18px;
+  }
+  .icon>div:last-of-type {
+    margin-bottom: 20vh;
   }
   .section {
    display: flex;
