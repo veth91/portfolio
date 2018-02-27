@@ -120,6 +120,13 @@ h3 span {
   color: #00a8d6;
   border-color: #00a8d6;
 }
+.portfoliotile:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.portfoliotile {
+  color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.3);
+}
 /*a:hover {
   opacity: 1;
   transition: opacity 0.5s ease-out;
