@@ -17,5 +17,9 @@ $( document ).ready(function(){
           $("#contact").fadeIn(700);
         }
   });
-
+  $(".intro").on("click", function() {
+    $(".contentbox").hide();
+    $(".item").removeClass("active");
+    $("#intro").fadeIn(700)
+  })
 });
