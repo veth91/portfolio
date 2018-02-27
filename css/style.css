@@ -20,7 +20,7 @@ p {
 
 .contentbox {
   font-family: raleway;
-  font-size: 30px;
+  font-size: 20px;
   height: auto;
   width: 80%;
   display: flex;
@@ -56,7 +56,13 @@ p {
   flex-direction: row;
   min-height: 100vh;
 }
-.item, .titlearea h1, .titlearea h3 {
+.item {
+  text-align: left;
+  margin-left: 60px;
+  padding: 15px 0px;
+  border-right: 2px solid rgba(0, 0, 0, 0);
+}
+.titlearea h1, .titlearea h3 {
 /*   border: 2px solid red; */
   text-align: left;
   margin: 25px 0px 25px 60px;
@@ -113,13 +119,16 @@ h3 span {
   transition: opacity 0.5s ease-out;
 }*/
 .item:hover {
-  background-color: #910002;
-  transition: background-color 0.5s 0.1s ease-in;
+  border-color: black;
+  transition: border-color 0.5s 0.1s linear;
+}
+.active {
+  border-color: black;
 }
 
 .icon>div {
-  min-height: 80px;
-  min-width: 150px;
+  height: 80px;
+  min-width: 100px;
   /*color: bla;*/
   padding: 10px;
   margin: 20px;
@@ -129,6 +138,7 @@ h3 span {
   align-items: center;
   justify-content: space-around;
   }
+
 #skills {
   display: flex;
   flex-wrap: nowrap;
@@ -286,12 +296,11 @@ div.tile * {
    align-items: center;
   }
   .item:hover {
-    border-right: none;
-    border-bottom: 2px solid white;
-    transition: border-bottom 0.2s 0.2s ease-out; 
+  border-right: 0;
+  /*transition: none;*/
   }
-  .section:hover {
-    
-   
+  .active {
+    border-bottom: 2px solid black;
+    border-right: none;
   }
 }
