@@ -127,6 +127,27 @@ h3 span {
   color: rgba(0, 0, 0, 0.4);
   border-color: rgba(0, 0, 0, 0.3);
 }
+.todo:hover {
+  background: #2980b9;
+}
+.todo {
+  color: #2980b9;
+  border-color: #2980b9;
+}
+.colorgame:hover {
+  background: rgb(27, 108, 191);
+}
+.colorgame {
+  color: rgb(27, 108, 191);
+  border-color: rgb(27, 108, 191);
+}
+.patatap:hover {
+  background: black;
+}
+.patatap {
+  color: black;
+  border-color: black;
+}
 /*a:hover {
   opacity: 1;
   transition: opacity 0.5s ease-out;
