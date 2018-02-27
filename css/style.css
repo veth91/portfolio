@@ -61,6 +61,7 @@ p {
   margin-left: 60px;
   padding: 15px 0px;
   border-right: 2px solid rgba(0, 0, 0, 0);
+  transition: border-color 0.5s 0.1s linear;
 }
 .titlearea h1, .titlearea h3 {
 /*   border: 2px solid red; */
@@ -120,7 +121,7 @@ h3 span {
 }*/
 .item:hover {
   border-color: black;
-  transition: border-color 0.5s 0.1s linear;
+  
 }
 .active {
   border-color: black;
@@ -223,7 +224,7 @@ div.tile:hover div {
   opacity: 1;
 }
 div.tile * {
-  transition: all .35s ease-in-out;
+  transition: all .3s 0.1S ease-in-out;
 }
 
 
