@@ -314,6 +314,8 @@ div.tile * {
   }
   .item {
     margin: 10px 20px;
+    transition: none;
+    padding: 2px;
   }
   .websitetile:last-of-type {
     margin-bottom: 20vh;
