@@ -4,6 +4,7 @@ body {
 	min-height: 100%;
 	background-color: #ffffff;
 	background-image: url("../assets/light-wool.png")!important;
+  font-family: "Open Sans"
 }
 div {
   padding: 0;
@@ -18,8 +19,8 @@ p {
 }
 
 .contentbox {
-  font-family: "Raleway";
-  font-size: 20px;
+  font-family: "Open Sans";
+  font-size: 22px;
   height: auto;
   width: 80%;
   display: flex;
@@ -28,10 +29,26 @@ p {
   margin-left: 20%;
 }
 .contentbox>span {
+  font-family: "Raleway";
   font-size: 300px;
   padding: 20px 0px;
   color: rgba(0, 0, 0, 0.2);
 }
+#intro>div {
+  font-size: 20px;
+  max-width: 500px;
+  padding: 20px 40px;
+  white-space: pre-line;
+}
+#about>div {
+  font-family: "Open Sans";
+  font-size: 18px;
+  max-width: 900px;
+  margin: 10% 0%;
+  padding: 20px 40px;
+  white-space: pre-line;
+}
+
 .boxfortiles {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +59,7 @@ p {
   height: 100vh;
   width: 20%;
   min-width: 225px;
-  font-family: raleway;
+  font-family: "Raleway";
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -282,6 +299,7 @@ div.tile * {
     height: 15vh;
     width: 100vw;
     position: fixed;
+    bottom: 0;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 100;
   }
@@ -304,10 +322,10 @@ div.tile * {
     height: 85vh;
     width: 100vw;
     margin-left: 0px;
-    margin-bottom: 15%
+    /*margin-bottom: 15%;*/
   }
   .container {
-   flex-direction: column-reverse;
+   flex-direction: column;
   }
   .boxfortiles {
     max-height: 85vh;
@@ -319,6 +337,12 @@ div.tile * {
   }
   .websitetile:last-of-type {
     margin-bottom: 20vh;
+  }
+  #about>div>p {
+    margin-bottom: 25vh;
+  }
+  #intro>div>p {
+    margin-bottom: 25vh;
   }
   a {
     font-size: 18px;
