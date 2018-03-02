@@ -291,6 +291,9 @@ div.tile * {
   justify-content: space-between;
   padding: 30px 0px 20px 0px;
 }
+.emaillink {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 1000px) {
   .sidebar {
@@ -339,9 +342,6 @@ div.tile * {
     margin-bottom: 20vh;
   }
   #about>div>p {
-    margin-bottom: 25vh;
-  }
-  #intro>div>p {
     margin-bottom: 25vh;
   }
   a {
