@@ -376,7 +376,7 @@ div.tile * {
     border-right: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   body {
     font-size: 28px;
   }
