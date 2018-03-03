@@ -302,9 +302,9 @@ div.tile * {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    font-size: 24px;
-  }
+  /*body {
+    font-size: 22px;
+  }*/
   .sidebar {
     flex-direction: column;
     justify-content: center;
@@ -374,5 +374,10 @@ div.tile * {
   .active {
     border-bottom: 2px solid black;
     border-right: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 28px;
   }
 }
