@@ -208,7 +208,7 @@ h3 span {
 #skills>div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .websitetile {
@@ -297,7 +297,7 @@ div.tile * {
 
 @media screen and (max-width: 1000px) {
   body {
-    font-size: 20px;
+    font-size: 24px;
   }
   .sidebar {
     flex-direction: column;
@@ -319,7 +319,7 @@ div.tile * {
     display: none;
   }
   .titlearea>h1 {
-    font-size: 25px;
+    font-size: 200%;
     padding: 0;
     margin: 0;
   }
@@ -337,23 +337,24 @@ div.tile * {
     max-height: 85vh;
   }
   .item {
+    font-size: 130%;
     margin: 10px 20px;
     transition: none;
     padding: 2px;
   }
-  /*.websitetile {
+  .websitetile {
     max-width: 100%;
     width: auto;
-  }*/
+  }
   .websitetile:last-of-type {
     margin-bottom: 20vh;
   }
   #about>div>p {
     margin-bottom: 25vh;
   }
-    .icon>div:last-of-type {
+  /*.icon>div:last-of-type {
     margin-bottom: 20vh;
-  }
+  }*/
   .section {
    display: flex;
    flex-direction: column;
