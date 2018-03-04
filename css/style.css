@@ -377,9 +377,9 @@ div.tile * {
   }
 }
 @media screen and (max-width: 640px) {
-  body {
+  /*body {
     font-size: 28px;
-  }
+  }*/
   .websitetile:last-of-type {
     margin-bottom: 20vh;
   }
