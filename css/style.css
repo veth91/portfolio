@@ -42,7 +42,7 @@ h2, h3 {
 }
 .contentbox>span {
   font-family: "Raleway";
-  font-size: 300px;
+  font-size: 900%;
   padding: 20px 0px;
   color: rgba(0, 0, 0, 0.2);
 }
@@ -302,9 +302,9 @@ div.tile * {
 }
 
 @media screen and (max-width: 900px) {
-  /*body {
-    font-size: 22px;
-  }*/
+  body {
+    font-size: 12px;
+  }
   .sidebar {
     flex-direction: column;
     justify-content: center;
@@ -325,7 +325,7 @@ div.tile * {
     display: none;
   }
   .titlearea>h1 {
-    font-size: 200%;
+    font-size: 180%;
     padding: 0;
     margin: 0;
   }
@@ -343,13 +343,13 @@ div.tile * {
     max-height: 85vh;
   }
   .item {
-    font-size: 130%;
+    font-size: 110%;
     margin: 10px 20px;
     transition: none;
     padding: 2px;
   }
   .websitetile {
-    max-width: 100%;
+    max-width: 90%;
     width: auto;
   }
   .websitetile:last-of-type {
@@ -358,9 +358,9 @@ div.tile * {
   #about>div>p {
     margin-bottom: 25vh;
   }
-  /*.icon>div:last-of-type {
+  .icon>div:last-of-type {
     margin-bottom: 20vh;
-  }*/
+  }
   .section {
    display: flex;
    flex-direction: column;
