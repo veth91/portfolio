@@ -301,7 +301,7 @@ div.tile * {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   /*body {
     font-size: 22px;
   }*/
@@ -379,5 +379,8 @@ div.tile * {
 @media screen and (max-width: 640px) {
   body {
     font-size: 28px;
+  }
+  .websitetile:last-of-type {
+    margin-bottom: 20vh;
   }
 }
