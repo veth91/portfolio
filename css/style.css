@@ -344,7 +344,7 @@ div.tile * {
   }
   .item {
     font-size: 110%;
-    margin: 10px 20px;
+    margin: 10px 10px;
     transition: none;
     padding: 2px;
   }
@@ -357,6 +357,9 @@ div.tile * {
   }
   #about>div>p {
     margin-bottom: 25vh;
+  }
+  .icon>div {
+    margin: 5px;
   }
   .icon>div:last-of-type {
     margin-bottom: 20vh;
@@ -377,10 +380,20 @@ div.tile * {
   }
 }
 @media screen and (max-width: 640px) {
-  /*body {
-    font-size: 28px;
-  }*/
+  body {
+    font-size: 10px;
+  }
+  .item {
+  padding: 5px 0px;
+  font-size: 110%;
+  }
+  div.tile img {
+    max-width: 200px;
+  }
   .websitetile:last-of-type {
     margin-bottom: 20vh;
+  }
+  #portfolio span {
+    display: none;
   }
 }
