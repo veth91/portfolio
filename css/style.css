@@ -205,7 +205,7 @@ h3 span {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  }
+}
 
 #skills {
   display: flex;
@@ -232,58 +232,54 @@ h3 span {
   margin: 0;
   font-size: 100%;
 }
-div.tile h3 {
+.imagetile h3 {
   font-size: 120%;
   margin: 0;
   border-bottom: 2px solid white;
 }
-div.tile ul {
+.imagetile ul {
   list-style-type: none;
   padding-left: 0px;
 }
-div.tile img {
-  display: block;
-  max-width: 350px;
-  max-height: 250px;
-  min-height: 250px
-  width: auto;
-  height: auto;
-  z-index: 10;
-  background-color: white;
-  margin: auto;
-}
-div.tile div {
-  color: white;
-  font-family: "Raleway";
-  width: 350px;
-  height: 250px;
-  background: #515A5A;
-  position: absolute;
-  display: flex;
-  opacity: 0;
-  z-index: -1
-  transform: translate(-50%, -50%) scale(0);
-  transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-}
-/*The list when you hover on the portfolio images*/
-div>ul {
-  font-size: 80%;
-  margin: auto;
 
+
+.imagetile {
+  position: relative;
+  width: 100%;
 }
-.tech:hover img{
-  opacity: 0.2;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-div.tile:hover img {
-  opacity: 0.2;
-  filter: grayscale(100%);
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #515A5A;
 }
-div.tile:hover div {
-  opacity: 1;
+.imagetile:hover .overlay {
+  opacity: 0.90;
 }
-div.tile * {
-  transition: all .3s 0.1S ease-in-out;
-}
+.text {
+  font-family: "Raleway";
+  color: white;
+  font-size: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+
+
 .websitetile>p {
   font-family: "Open Sans";
   font-size: 70%
@@ -383,6 +379,9 @@ div.tile * {
   body {
     font-size: 10px;
   }
+  p {
+    font-size: 110%;
+  }
   .item {
   padding: 5px 0px;
   font-size: 110%;
@@ -395,5 +394,8 @@ div.tile * {
   }
   #portfolio span {
     display: none;
+  }
+  .contentbox {
+    padding-bottom: 30vh;
   }
 }
