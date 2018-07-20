@@ -98,7 +98,7 @@ h2, h3 {
   opacity: 0.8;
 }
 .titlearea h1 {
-   font-size: 240%; 
+   font-size: 240%;
 }
 .titlearea h3 {
   font-size: 130%;
@@ -139,12 +139,27 @@ h3 span {
   text-decoration: none;
   color: white;
 }
+.ccc:hover {
+  
+  background: #d6d8d8;
+}
+.ccc {
+  color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.fff:hover {
+  background: #fa6900;
+}
+.fff {
+  color: #fa6900;
+  border-color: #fa6900;
+}
 .citystyle:hover {
   background: #910002;
 }
 .citystyle {
   color: #910002;
-  border-color: #910002
+  border-color: #910002;
 }
 .featureme:hover {
   background: #00a8d6;
@@ -187,7 +202,7 @@ h3 span {
 }*/
 .item:hover {
   border-color: black;
-  
+
 }
 .active {
   border-color: black;
@@ -364,7 +379,7 @@ h3 span {
   .section {
    display: flex;
    flex-direction: column;
-   flex-wrap: nowrap; 
+   flex-wrap: nowrap;
    align-items: center;
   }
   .item:hover {
